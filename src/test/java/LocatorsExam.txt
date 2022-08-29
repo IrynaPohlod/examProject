@@ -1,0 +1,54 @@
+#TopHeader
+topHeader.link.signIn='.//*[text()='Вхід до кабінету']'
+topHeader.link.cabinet='.//a[text()="Кабінет"]'
+
+#AuthPopup
+authPopup.input.email='.//input[@name="user_login"]'
+authPopup.input.password='.//input[@name="user_pw"]'
+authPopup.button.signIn='.//button[text()='Увійти']'
+
+#Header
+header.link.favorite='.//a[@class="header-favourite"]'
+header.input.search='.//input[@id="search-input"]'
+header.button.search='.//button[@class="search-button"]'
+header.button.basket='.//div[text()='Кошик']'
+header.counter.basket='.//div[@class="header-basket"]//span' --------------- ????
+header.counter.favorite='.//a[@class="header-favourite"]//span[@class="favourite-count"]'
+
+
+#SearchPage
+searchPage.text.searchResults='.//h1[text()='Результати пошуку']'
+
+#MenuList
+menuList.item.makeup='.//a[text()='Макіяж']'
+menuList.item.brands='.//a[text()='Бренди']'
+menuList.item.face'.//a[@class="menu-list__link" and text()='Обличчя']'
+menuList.category.miniatures='.//div[@class="menu-column-header"]//a[text()='Мініатюри']'
+menuList.category.nutrition='.//div[@class="menu-column-header"]//a[text()='Живлення']'
+
+#HomePage
+homePage.link.productName='.//div[@class="info-product-wrapper"]//a[@class="simple-slider-list__name"]'
+homePage.link.addToFavorite='.//div[@class="to-favourite"]'
+
+#ProductPage
+productPage.button.by='.//div[@class="product-item__button"]//div[@class="button buy"]'
+productPage.filterBrand.checkbox(Rexona)='.//*[@id="input-checkbox-2243-122137"]'
+
+#BasketPopup
+basketPopup.text.basket='.//div[text()='Кошик']'
+
+#ConfirmWishList
+confirmWishList.button.priceTracking='.//div[@id="popup__window"]//div[text()="Слідкувати за ціною"]'
+
+#UserPage
+userPage.text.cabinet='.//h1[text()='Особистий кабінет'] '
+userPage.tab.contactInfo='.//li[contains(text(),'Контактна інформація')]'
+userPage.tab.addressBook='.//li[contains(text(),'Адресна книга')]'
+userPage.input.name='.//input[@id="name"]'
+userPage.input.surname='.//input[@id="surname"]'
+userPage.button.save='.//div[@class="private-office__column"]//button[text()='Зберегти']'
+userPage.input.recipientName='.//input[@id="input-name"]'
+
+#BrandPage
+brandPage.alphabet.letter='.//div[@id="brands-filter"]//*[text()='R']'
+brandPage.brandList.rexona='.//ul[@class="brands__list"]//*[text()='Rexona']'

@@ -1,0 +1,81 @@
+TC1 Successful SignIn -----------------------------------
+
+STR:
+1. Go to https://makeup.com.ua/
+2. Click on the 'Вхід до кабінету'
+3. Add email to the 'Email' input field (pohlodiryna@gmail.com)
+4. Add password to the 'Password' input field (Azerty12!)
+5. Click on the 'Увійти' button
+
+ER:
+'Обране' link is shown
+
+
+TC2 Search for item ----------------------------------------
+Preconditions:
+Login with valid creds
+
+STR:
+1. Add text 'туш' to the Search input field
+2. Click on the magnifying glass icon
+
+ER:
+'Результати пошуку' text is shown
+
+
+TC3 Adding item to the basket -------------------------------
+Preconditions:
+Login with valid creds
+
+STR:
+1. Hover mouse over the 'Макіяж' menu drop-down
+2. Click on the 'Мініатюри' menu option
+3. Click on any product name
+4. Click on the 'Купити' button
+
+ER:
+1.'Кошик' text in popup window is displayed
+2. Basket counter is increased by one
+
+TC3 Adding product to the favorite with price tracking ------------
+Preconditions:
+Login with valid creds
+
+STR:
+1. Hover mouse over the 'Обличчя' menu drop-down
+2. Click on the 'Живлення' menu option
+3. Hover mouse over any product name
+4. Click on the 'До Обраного' link
+5. Click on the 'Слідкувати за ціною' button on popup
+
+
+ER:
+'Обране' counter is increased by one
+
+TC4 Edit contact information -------------------------------------
+Preconditions:
+Login with valid creds
+
+STR:
+1. Click on the 'Кабінет' link on the header
+2. Check that 'Контактна інформація' tab is opened
+3. Change 'Ваше ім'я' input field
+4. Change 'Прізвище' input field
+5. Click on 'Зберегти' button
+
+ER:
+1.'Данні успішно збережені' text is shown on popup
+2. Data is changed on the 'Адресна книга' tab
+
+TC5 Find all products with 'Rexona' brand --------------------------
+Preconditions:
+Login with valid creds
+
+
+STR:
+1. Click on the 'Бренди' menu item
+2. Select 'R' letter from the alphabet
+3. Click on the 'Rexona' link from the list
+
+ER:
+List of products with marked 'Rexona' checkbox in the filter 'Бренд' section is displayed
